@@ -1,0 +1,62 @@
+h1{
+    font-family: 'Azeret Mono', monospace;
+    font-weight: bold;
+    color: #7768AE;
+    font-size: 35px;
+}
+
+h2{
+    font-family: 'Azeret Mono', monospace;
+    color: #7768AE; 
+    font-size: 30px;
+}
+
+body{
+    font-family: 'Azeret Mono', monospace;
+    font-size: 18px;
+    background-color: #DCECF9;
+}
+
+.d1{
+    border-bottom: 1px #7768AE solid;
+}
+
+.d2{
+    border-bottom: 1px #7768AE solid;
+}
+
+.peter{
+    font-weight: bold;
+    font-size: 18px;
+    color: #E15554;
+}
+
+.dana{
+    font-weight: bold;
+    font-size: 18px;
+    color: #E1BC29;
+}
+
+.mayor{
+    font-weight: bold;
+    font-size: 18px;
+    color: #2583D0;
+}
+
+.ray{
+    font-weight: bold;
+    font-size: 18px;
+    color: #3BB273;
+}
+
+.egon{
+    font-weight: bold;
+    font-size: 18px;
+    color: #E77728; 
+}
+
+.winston{
+    font-weight: bold;
+    font-size: 18px;
+    color: #D30C7B; 
+}

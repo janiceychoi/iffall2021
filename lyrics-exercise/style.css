@@ -1,0 +1,22 @@
+h1{
+    font-size: 48px;
+    color: white;
+}
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+body{
+    font-family: 'Urbanist', sans-serif;
+    background-image: url("joji.jpeg");
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+}

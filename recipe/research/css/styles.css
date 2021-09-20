@@ -1,0 +1,33 @@
+body{
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
+    max-width: 90%;
+    
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px; 
+    margin-bottom: 10%;
+}
+div{
+    width: 100%;
+}
+p{
+    width:90%;
+}
+li{
+    font-size: 1rem;
+}
+img{
+    width: 50%;
+}
+aside{
+    margin: 10px;
+}
+@media (min-width: 640px){
+    div{
+        width: 50%;
+    }
+}

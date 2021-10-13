@@ -1,0 +1,124 @@
+html{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+header {
+    text-align: center;
+    color: #cedcc8;
+    background-image: url(https://64.media.tumblr.com/f07f2a9b6d9934245773919c83bda075/tumblr_n4g9jor9vr1qze5veo1_400.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top:150px;
+    height: 330px;
+}
+
+h1{
+    font-size: 61pt;
+    margin:auto;
+    margin-bottom: -3pt;
+}
+h2{
+    margin-top: 0;
+    font-size: 22.5pt; 
+}
+
+h3{
+   text-align: center; 
+   font-size: 30pt;
+   margin-bottom:0px;
+   margin-top:40px;
+}
+p{
+    font-size: 13.4pt;
+    line-height: 19pt;
+}
+
+.one p:first-of-type{
+    padding-top:15px;
+}
+
+.sections{
+    width: 960px;
+    margin: auto;
+}
+.one {
+    color: #6a713b;
+    background-color:#cedcc8;
+    background-size: cover;
+    overflow-x: hidden;
+    padding-bottom: 32px;
+}
+.image-one{
+    height: 300px;
+    width: 400px;
+    float: right;
+    object-fit: cover;
+    border: solid white;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.two {
+    background-color: #6a713b;
+    color:#cedcc8;
+    background-size: cover;
+    overflow-x: hidden;
+    padding-bottom: 31px;
+}
+.grid {
+    display:grid;
+    padding:0; 
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+}
+.grid li{
+    align-items: left;
+    display: inline-block;
+    width:100%;
+    margin-bottom: 21px;
+    padding-top: 2px;
+}
+.grid li img{
+    width: 200px;
+    height: 150px;
+    float:left;
+    margin-right:10px;
+}
+h4 {
+    font-size: 16pt;
+    margin:0;
+    padding-bottom: 0pt;
+}
+.photo-text{
+    font-size: 13.5pt;
+    width:90%;
+    line-height: 20pt;
+}
+
+
+.three{
+    color: #6a713b;
+    background-color:#cedcc8;
+    background-size: cover;
+    overflow-x: hidden;
+    padding-bottom:98px;
+}
+
+.last-text {
+    width: 710px;
+    margin: auto; 
+    margin-top: 30px;
+    text-align: center;
+    font-size: 19pt;
+    line-height: 27pt;
+}
+
+footer {
+    background-color:#6a713b;
+    background-size: cover;
+    overflow: hidden;
+    color:#cedcc8;
+    padding-top:30pt;
+    padding-left: 180pt; 
+    padding-bottom: 30pt;
+    font-size: 14pt;
+}

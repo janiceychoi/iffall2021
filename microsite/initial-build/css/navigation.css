@@ -1,0 +1,13 @@
+li{
+    margin:auto;
+    text-align: center;
+}
+nav{
+    margin-top: 10%;
+}
+
+li a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50pt;
+}

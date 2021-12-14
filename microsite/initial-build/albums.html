@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Albums</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.typekit.net/yzn3kdf.css">
+		
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $( document ).ready(function() {		
+        
+      $(".controls").click(function(){		
+        $("#drawer").toggleClass("open");	
+        console.log("Toggled the class!");	
+      });
+    });
+
+  </script>
+  </head>
+  <div class="header-container">
+  <header>
+    <a href="index.html"><span id="red-text"> Twin Peaks</span></a>
+      <nav>
+        <ul>
+         <li><a href="about.html">About</a></li> 
+         <li><a href="albums.html" class="thispage">Albums</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="drawer">
+      <button class="controls"><i class="fa fa-bars" aria-hidden="true"></i></button>
+      			<div class="contents">
+              <ul>
+               <li><a href="about.html">About</a></li> 
+               <li><a href="albums.html">Albums</a></li>
+              </ul>
+            </div>
+    </div>
+    
+  </div>
+    <body>
+      <div class="band-image">  <img src="photos/group.jpeg"></div>
+    
+      <div class="content">
+        <div class="page-name">
+            <h1>Critical Reception</h1>
+        </div>
+        <div class="body">
+                <p>The band's musical style is regarded as a mixture of "'60s garage rock and the 2010s garage punk sound."Jayson Greene of Pitchfork stated that the band "spends half their time as a chugging power chord factory and half as a winsome power-pop band." The band's musical style on their debut album has been described as "sloppy, Replacements-inspired rock" while the band's second album features "a garage-rock sound that touches on everything from fuzz-soaked psychedelia and punk to ballads and baroque pop."The band's influences on the album include garage rock acts such as Black Lips, Jay Reatard, Ty Segall and The Strokes, and rock artists such as the Beatles, The Stooges, The Beach Boys, and the Rolling Stones.
+                </p>
+        </div>
+    </div>
+    <div class="content">
+      <h2>Albums</h2>
+    <ul class="grid">
+      <li><img src="photos/sunken.jpeg"><p class="description">Sunken (2013)</p></li>
+      <li><img src="photos/wildonion.jpeg"><p class="description">Wild Onion (2014)</p></li>
+      <li><img src="photos/downinheaven.jpeg"><p class="description">Down in Heaven (2016)</p></li>
+      <li><img src="photos/urbsinhorto.jpeg"><p class="description">Urbs in Horto (2017)</p></li>
+      <li><img src="photos/sweet17singles.jpeg"><p class="description">Sweet '17 Singles (2018)</p></li>
+      <li><img src="photos/lookoutlow.jpeg"><p class="description">Lookout Low (2019)</p></li>
+    </ul>
+    </div>
+    </body>
+  <footer>
+    <div id=footer-contents>
+    <ul class="bottom">
+      <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">About</a></li> 
+     <li><a href="albums.html">Albums</a></li>
+    </ul>
+    <div class="foot-sources">
+      <ul>
+        <li><a>Sources:</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Twin_Peaks_(band)">Wikipedia + </a></li>
+        <li> <a href="https://www.google.com/imghp?hl=EN">Google Images</a></li>
+        <li><a>| Creative Director: Bridget | </a></li>
+        <li><a>Developer: Janice</a></li>
+      </ul>
+    </div>
+</div>
+  </footer>
+  </html>
+

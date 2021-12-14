@@ -1,0 +1,14 @@
+li{
+    text-align: center;
+    list-style-type: none;
+    margin:auto;
+}
+li a{
+    font-size: 48pt;
+    color: #ffffff;
+    text-decoration: none;
+}
+nav{
+    margin-top: 12%;
+}
+
